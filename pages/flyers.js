@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import ImgSection from '../components/ImgSection'
-import PortfolioCard from '../components/portfolioCard'
+import ImgSection from '../components/ImgSection.js'
+import PortfolioCard from '../components/PortfolioCard.js'
 
 export default function Flyers() {
 
