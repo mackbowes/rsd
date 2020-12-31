@@ -1,6 +1,6 @@
 import React from 'react';
 import MediaQuery from 'react-responsive'
-import ServiceHighlight from './ServicesHighlight'
+import ServiceHighlight from './ServicesHighlight.js'
 
 
 export default function Services() {

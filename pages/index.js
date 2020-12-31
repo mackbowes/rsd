@@ -1,8 +1,8 @@
 import Head from 'next/head'
-import ImgSection from '../components/imgSection'
-import Services from '../components/services'
-import WhyUse from '../components/whyUse'
-import ContactForm from '../components/contactform'
+import ImgSection from '../components/ImgSection.js';
+import Services from '../components/Services.js';
+import WhyUse from '../components/WhyUse.js';
+import ContactForm from '../components/ContactForm.js';
 
 export default function Home() {
 
