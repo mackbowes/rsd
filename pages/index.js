@@ -3,6 +3,8 @@ import ImgSection from '../components/ImgSection.js';
 import Services from '../components/Services.js';
 import WhyUse from '../components/WhyUse.js';
 import ContactForm from '../components/ContactForm.js';
+import Image from 'next/image';
+
 
 export default function Home() {
 
@@ -10,7 +12,7 @@ export default function Home() {
     <div>
       <Head>
         <title>realsupport.digital</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/Favicon.png" />
       </Head>
       <ImgSection
       bg="/BG-1.png"
@@ -35,6 +37,12 @@ export default function Home() {
       <p>Mailing Address</p>
       <p>#302-20243 56th Avenue, Langley, British Columbia, Canada</p>
       <p>Copyright realsupport.digital 2021</p>
+      <Image
+      src="/Favicon.png"
+      alt="realsupport.digital logo"
+      width={72}
+      height={72}
+      loading="lazy" />
       </div>
     </div>
   )
