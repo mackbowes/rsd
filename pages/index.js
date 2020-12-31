@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import ImgSection from '../components/ImgSection'
+import ImgSection from '../components/imgSection'
 import Services from '../components/services'
 import WhyUse from '../components/whyUse'
 import ContactForm from '../components/contactform'
