@@ -1,9 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;600&family=Roboto:wght@300;400;500&display=swap');
+
+:root {
+  --background: #D1D1C7;
+  --text: #262320;
+  --text-tint: #47413C;
+  --text-white: #F0F5F2;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+body {
+  background-color: var(--background);
 }
 
 a {
