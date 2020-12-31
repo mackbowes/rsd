@@ -41,7 +41,6 @@ export default function Services() {
     <h2 style={dlargeHeading}>Grow Your Brand Using Designer Collateral Without Designer Price Tags.<br />
     Only Pay For What You Need.</h2>
     <ServiceHighlight
-    path="/flyers"
     title="Flyers"
     desc="Get flyers designed, printed, and mailed to your target zip codes without breaking the bank."
     pricing="Flyers From $25" />
