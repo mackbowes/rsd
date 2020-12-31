@@ -13,18 +13,19 @@ export default function Home() {
       <Head>
         <title>realsupport.digital</title>
         <link rel="icon" href="/Favicon.png" />
+        <meta name="description" content="RealSupport.digital (rs.d) provides on demand digital & print marketing support for real estate agents." />
       </Head>
       <ImgSection
-      bg="/BG-1.png"
+      bg="/BG-1.webp"
       heading="rs.d"
       subheading="On Demand Digital Marketing Support for Real Estate Agents"  />
       <Services />
       <ImgSection
-      bg="/BG-2.png"
+      bg="/BG-2.webp"
       heading="Why use rs.d?" />
       <WhyUse />
       <ImgSection
-      bg="/BG-3.png"
+      bg="/BG-3.webp"
       heading="Contact rs.d" />
       <ContactForm />
       <div style={{
